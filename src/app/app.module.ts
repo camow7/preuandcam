@@ -14,6 +14,12 @@ import { environment } from '../environments/environment';
 export const firebaseConfig = environment.firebaseConfig;
 //Firebase end
 
+//MDB
+//import { MDBBootstrapModules } from 'ng-mdb-pro';
+//import { MDBSpinningPreloader } from 'ng-mdb-pro';
+//import { NO_ERRORS_SCHEMA } from '@angular/core';
+//MDB End
+
 
 @NgModule({
   declarations: [
@@ -25,9 +31,11 @@ export const firebaseConfig = environment.firebaseConfig;
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireDatabaseModule,
     AngularFireAuthModule,
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    //MDBBootstrapModules.forRoot()
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [  ]
 })
 export class AppModule { }
