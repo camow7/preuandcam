@@ -21,14 +21,34 @@
       "styles": [
         "../node_modules/font-awesome/scss/font-awesome.scss",
         "../node_modules/ng-mdb-pro/assets/scss/bootstrap/bootstrap.scss",
-        "../node_modules/ng-mdb-pro/assets/scss/mdb.scss", 
+        "../node_modules/ng-mdb-pro/assets/scss/mdb.scss",
+        "./assets/css/bootstrap.min.css",
+        "./assets/libs/TimeCircles-countdown/TimeCircles.css",
+        "./assets/libs/owl-carousel/owl.carousel.css",
+        "./assets/libs/owl-carousel/owl.theme.css",
+        "./assets/libs/magnific-popup/magnific-popup.css",
+        "./assets/libs/loading/rolling.css",
+        "./assets/css/font-awesome.min.css",
+        "./assets/css/theme-style.css",
+        "./assets/css/colors/pink.css",
         "./styles.scss"
         ],
       "scripts": [
         "../node_modules/chart.js/dist/Chart.js",
         "../node_modules/easy-pie-chart/dist/easypiechart.js",
         "../node_modules/screenfull/dist/screenfull.js",
-        "../node_modules/hammerjs/hammer.min.js"
+        "../node_modules/hammerjs/hammer.min.js",
+        "./assets/js/jquery-1.12.4.min.js",
+        "./assets/js/bootstrap.min.js",
+        "./assets/js/jquery.sticky.js",
+        "./assets/js/jquery.nav.js",
+        "./assets/libs/owl-carousel/owl.carousel.min.js",
+        "./assets/libs/stellar/jquery.stellar.min.js",
+        "./assets/libs/TimeCircles-countdown/TimeCircles.js",
+        "./assets/libs/gallery-grid/gallery-grid.js",
+        "./assets/libs/magnific-popup/jquery.magnific-popup.min.js",
+        "./assets/libs/bootstrap-validator/validator.min.js",
+        "./assets/js/theme-main.js"
         ],
       "environmentSource": "environments/environment.ts",
       "environments": {
