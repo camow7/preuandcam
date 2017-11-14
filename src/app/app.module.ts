@@ -11,6 +11,13 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { environment } from '../environments/environment';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HomeComponent } from './home/home.component';
+import { CoupleComponent } from './couple/couple.component';
+import { OurStoryComponent } from './our-story/our-story.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { PeopleComponent } from './people/people.component';
+import { LocationComponent } from './location/location.component';
 export const firebaseConfig = environment.firebaseConfig;
 //Firebase end
 
@@ -23,7 +30,14 @@ export const firebaseConfig = environment.firebaseConfig;
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    HomeComponent,
+    CoupleComponent,
+    OurStoryComponent,
+    GalleryComponent,
+    PeopleComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,

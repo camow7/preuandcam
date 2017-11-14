@@ -18,10 +18,12 @@
 /* ==================================================================
 	1. General Styles
 ================================================================== */
+html,body { height:100%; }
 body{
 	color:#7b7571;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:300;
+	height:100%;
 }
 
 /* Texts */
@@ -49,7 +51,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
 }
 
 /* Colors */
-.bg-gray-1{background-color:#f4f4f4;}
+.bg-gray-1{background-color:#f4f4f4; height: 100%;}
 .bg-gray-2{background-color:#eaeaea;}
 .bg-gray-3{background-color:#cecece;}
 .bg-dark{background-color:#3d3d3d;}
@@ -206,10 +208,10 @@ section.img-bg-5{
 ================================================================== */
 section#home{
 	background:url(../img/bg-1.jpg) no-repeat;
-	background-attachment:fixed;
+	background-attachment:cover;
 	background-size:cover;
 	text-align:center;
-	height:800px;
+	height:100%;
 	padding:50px 0px;
 	position:relative;
 	padding-top:6%;
